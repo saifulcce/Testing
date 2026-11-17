@@ -1,2 +1,11 @@
-Test
-Secret=123456
+// Example alert code snippet
+public class PaymentService
+{
+    // SECRET DETECTED: Stripe API Key
+    private const string _apiKey = "sk_live_51Abc123XYZ789...";
+    
+    public async Task ProcessPayment(...)
+    {
+        // Payment processing logic
+    }
+}
